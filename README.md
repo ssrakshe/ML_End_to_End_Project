@@ -1,32 +1,32 @@
-##End to End MAchine Learning Project<\n>
-Docker Build checked
-Github Workflow
-Iam User In AWS
-Docker Setup In EC2 commands to be Executed
-#optinal
+##End to End MAchine Learning Project<br>
+Docker Build checked<br>
+Github Workflow<br>
+Iam User In AWS<br>
+Docker Setup In EC2 commands to be Executed<br>
+#optinal<br>
 
-sudo apt-get update -y
+sudo apt-get update -y<br>
 
-sudo apt-get upgrade
+sudo apt-get upgrade<br>
 
-#required
+#required<br>
 
-curl -fsSL https://get.docker.com -o get-docker.sh
+curl -fsSL https://get.docker.com -o get-docker.sh<br>
 
-sudo sh get-docker.sh
+sudo sh get-docker.sh<br>
 
-sudo usermod -aG docker ubuntu
+sudo usermod -aG docker ubuntu<br>
 
-newgrp docker
+newgrp docker<br>
 
-Configure EC2 as self-hosted runner:
-Setup github secrets:
-AWS_ACCESS_KEY_ID=
+Configure EC2 as self-hosted runner:<br>
+Setup github secrets:<br>
+AWS_ACCESS_KEY_ID=<br>
 
-AWS_SECRET_ACCESS_KEY=
+AWS_SECRET_ACCESS_KEY=<br>
 
-AWS_REGION = us-east-1
+AWS_REGION = us-east-1<br>
 
-AWS_ECR_LOGIN_URI = demo>> 566373416292.dkr.ecr.ap-south-1.amazonaws.com
+AWS_ECR_LOGIN_URI = demo>> 566373416292.dkr.ecr.ap-south-1.amazonaws.com<br>
 
-ECR_REPOSITORY_NAME = simple-app
+ECR_REPOSITORY_NAME = simple-app<br>
